@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sketchpad IFrame Example - Basic</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<style type="text/css">
+			#content textarea {
+					height: 50px;
+					margin-bottom: 1em;
+					width: 100%;
+			}
+
+			#sketchpad iframe {
+				height: 100vh;
+			}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<section id="content" class="col-sm">
+				<h1>Sketchpad Embedded as iFrame - Basic</h1>
+				<p>A basic example of including Sketchpad on your website is by using the <code>iframe</code> tag and setting the <code>src</code> directly to <code>https://sketchpad.app</code></p>
+				<textarea><iframe src="https://sketchpad.app" height="100%" width="100%"></iframe></section>
+				</textarea>
+				<p>The Sketchpad instance at the right of this page is implemented using this method. You get access to all the Sketchpad drawing tools, the file system, share pane, and user guide. This implementation is offered for free and includes a watermark to the Sketchpad interface which can be removed by upgrading your license.</p>
+				<h2>Cloud Hosted License</h2>
+				<p>By subscribing to a Cloud Hosted SketchAPI license, you can customize the following aspects of the app:</p>
+				<ul>
+					<li>Clipart</li>
+					<li>Fonts</li>
+					<li>Help Page</li>
+					<li>Language</li>
+					<li>Starting Templates</li>
+					<li>Submit URL</li>
+					<li>Theme Colors</li>
+					<li>Tools</li>
+				</ul>
+				<a href="/services/integrations" class="btn btn-primary">Configure Your Instance</a>
+			</section>
+			<section id="sketchpad" class="col-sm">
+				<iframe src="https://sketchpad.app" height="100%" width="100%"></iframe>
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>
