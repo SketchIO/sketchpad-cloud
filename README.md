@@ -3,7 +3,7 @@
 With Sketchpad Cloud you can configure your own instance of the Sketchpad drawing application. You can choose to use your instance as a full screen application or embed it into your website via an iframe.
 
 ## How it Works
-1. Submit an order request to [configure your instance](https://pay.sketch.io).
+1. Submit an order request to [configure your instance](https://pay.sketch.io/product/cloud-hosted-sketchapi-integration/).
 2. Your initial instance will be available online within 24 hours and ready for testing.
 3. A Sketch.IO developer will contact you to discuss any customizations and to ensure your instance is configured properly.
 4. Link directly to your instance URL or embed it into your website via an `iframe`.
