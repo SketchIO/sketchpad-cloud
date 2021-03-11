@@ -14,3 +14,8 @@ With Sketchpad Cloud you can configure your own instance of the Sketchpad drawin
 ## Integration Examples
 * **basic.html** is the simplest integration and embeds the main sketchpad.app as an iframe. Anyone can use this method for free, but it comes with a Sketchpad.app watermark and may be too much for your needs.
 * **custom-1.html** is also an iframe embed, but uses an example demo URL of a custom instance.
+
+## Configuration
+* [Hosting Your Own Assets](docs/Hosting-Your-Own-Assets.md)
+* [Handling User Submissions](docs/Handling-User-Submissions.md)
+* [Integrating Google Forms](docs/Integrating-Google-Forms.md)
